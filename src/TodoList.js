@@ -8,11 +8,9 @@ const Todolist = (props) => {
                      <i className="fas fa-times" style={{backgroundColor:'white'}} onClick={()=>{
                          props.onSelect(props.id);
                      }}></i>
-                     
-                     
                      <li> {props.text} </li>
-                      
                      </div>         
+                     <hr/>
         </div>
     )
 }
